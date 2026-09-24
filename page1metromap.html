@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карта метро</title>
+    <style>
+        body {
+            font-family: 'GraphikLCWeb-Medium';
+        }
+        @font-face {
+            font-family: 'GraphikLCWeb-Medium';
+            src: url('graphiklcweb-medium.eot'); /* IE 9 Compatibility Mode */
+            src: url('graphiklcweb-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+                url('graphiklcweb-medium.woff2') format('woff2'), /* Super Modern Browsers */
+                url('graphiklcweb-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+                url('graphiklcweb-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('graphiklcweb-medium.svg#graphiklcweb-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+        }
+            a {
+            color: black;
+            text-decoration: none;
+        }
+        a.active {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="100%" height="50" style="table-layout: fixed;">
+        <tr>
+            <td align="center" valign="middle">
+                <a class="active" style="font-size: 20px; color: black; text-decoration: none;" href="page1metromap.html"> Схема </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: black; text-decoration: none;"  href="landmarks.html"> Достопримечательности </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: black; text-decoration: none;" href="usefullinks.html"> Полезные ссылки </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: black; text-decoration: none;" href="imena.html"> Их именами названы улицы </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: black; text-decoration: none;" href="otzyv.html"> Отзыв о поездке </a>
+            </td>
+        </tr>
+    </table>
+    <table width="100%">
+        <tr>
+            <td style="background: url('scheme_metro_without_names.png') center / cover no-repeat;
+                width: 900px;
+                height: 900px;
+                ">
+                <a href="kamennaia_gorka.html" style="
+                position: absolute;
+                top: 105px;
+                left: 105px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Каменная горка
+                </a>
+                <a href="kuntsevschina.html" style="
+                position: absolute;
+                top: 145px;
+                left: 145px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Кунцевщина
+                </a>
+                <a href="sportivnaya.html" style="
+                position: absolute;
+                top: 185px;
+                left: 185px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Спортивная
+                </a>
+                <a href="pushkinskaya.html" style="
+                position: absolute;
+                top: 225px;
+                left: 225px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Пушкинская
+                </a>
+                <a href="molodyozhnaya.html" style="
+                position: absolute;
+                top: 270px;
+                left: 270px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Молодёжная
+                </a>
+                <a href="frunzenskaya.html" style="
+                position: absolute;
+                top: 310px;
+                left: 310px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Фрунзенская
+                </a>
+                <a href="nemiga.html" style="
+                position: absolute;
+                top: 390px;
+                left: 380px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Немига
+                </a>
+                <a href="kupalovskaya.html" style="
+                position: absolute;
+                top: 490px;
+                left: 300px;
+                color: black;
+                font-size: 20px;
+                background: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+                ">
+                    Купаловская
+                </a>
+                 <!---Нужно вставить бэкграунд, тогда текст будет на беловатом фоне--->
+                <a href="pervomayskaya.html" style="
+                position: absolute;
+                top: 540px;
+                left: 520px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Первомайская
+                </a>
+                <a href="proletarskaya.html" style="
+                position: absolute;
+                top: 600px;
+                left: 580px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Пролетарская
+                </a>
+                <a href="traktorniy-zavod.html" style="
+                position: absolute;
+                top: 660px;
+                left: 630px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Тракторный завод
+                </a>
+                <a href="partizanskaya.html" style="
+                position: absolute;
+                top: 720px;
+                left: 690px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Партизанская
+                </a>
+                <a href="avtozavodskaya.html" style="
+                position: absolute;
+                top: 790px;
+                left: 750px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Автозаводская
+                </a>
+                <a href="mogilyovskaya.html" style="
+                position: absolute;
+                top: 850px;
+                left: 810px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Могилёвская
+                </a>
+                <a href="yub.pl.html" style="
+                position: absolute;
+                top: 350px;
+                left: 75px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Юбилейная площадь
+                </a>
+                <a align="right" href="plfrb.html" style="
+                position: absolute;
+                top: 450px;
+                left: 40px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Площадь <br> Франтишка Богушевича
+                </a>
+                <a href="vokzalnaya.html" style="
+                position: absolute;
+                top: 580px;
+                left: 220px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Вокзальная
+                </a>
+                <a align="right" href="kovsloboda.html" style="
+                position: absolute;
+                top: 600px;
+                left: 415px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Ковальская <br> Слобода
+                </a>
+                <a href="aerodromnaya.html" style="
+                position: absolute;
+                top: 710px;
+                left: 460px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Аэродромная
+                </a>
+                <a href="nemorsad.html" style="
+                position: absolute;
+                top: 790px;
+                left: 460px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Неморшанский Сад
+                </a>
+                <a href="slucgost.html" style="
+                position: absolute;
+                top: 870px;
+                left: 460px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Слуцкий Гостинец
+                </a>
+                <a href="malinovka.html" style="
+                position: absolute;
+                top: 870px;
+                left: 115px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Малиновка
+                </a>
+                <a href="petrovschina.html" style="
+                position: absolute;
+                top: 820px;
+                left: 160px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Петровщина
+                </a>
+                <a href="mihalovo.html" style="
+                position: absolute;
+                top: 770px;
+                left: 205px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Михалово
+                </a>
+                <a href="grushevka.html" style="
+                position: absolute;
+                top: 713px;
+                left: 255px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Грушевка
+                </a>
+                <a href="instkul.html" style="
+                position: absolute;
+                top: 640px;
+                left: 110px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Институт культуры
+                </a>
+                <a href="plenina.html" style="
+                position: absolute;
+                top: 550px;
+                left: 200px;
+                color: black;
+                font-size: 20px;
+                background: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+                ">
+                    Площадь Ленина
+                </a>
+                <a href="oktabr.html" style="
+                position: absolute;
+                top: 480px;
+                left: 470px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Октябрьская
+                </a>
+                <a href="plpobedy.html" style="
+                position: absolute;
+                top: 440px;
+                left: 515px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Площадь Победы
+                </a>
+                <a href="plkolasa.html" style="
+                position: absolute;
+                top: 400px;
+                left: 550px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Площадь Якуба Коласа
+                </a>
+                <a href="aknauk.html" style="
+                position: absolute;
+                top: 360px;
+                left: 590px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Академия наук
+                </a>
+                <a href="park.html" style="
+                position: absolute;
+                top: 325px;
+                left: 625px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Парк Челюскинцев
+                </a>
+                <a href="moskovskaya.html" style="
+                position: absolute;
+                top: 260px;
+                left: 530px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Московская
+                </a>
+                <a href="vostok.html" style="
+                position: absolute;
+                top: 214px;
+                left: 625px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Восток
+                </a>
+                <a href="bortrakt.html" style="
+                position: absolute;
+                top: 163px;
+                left: 553px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Борисовский тракт
+                </a>
+                <a href="urucca.html" style="
+                position: absolute;
+                top: 110px;
+                left: 720px;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                ">
+                    Уручье
+                </a>
+            </td>
+
+            <td>
+                <h1 align="center"> Добро пожаловать в Минск! </h1>
+                <p align="center">
+                    Очень рад видеть вас на моём сайте, посвящённом лучшему на свете городу - Минску!
+                    Я очень люблю это место, поэтому решил сделать сайт, посвященный ему. Нажимая на станции метро,
+                    вы получите дополнительную информацию о каждой станции, а также о районе, где они расположены.
+                </p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <img src="train.jpg" width="200" align="right">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
