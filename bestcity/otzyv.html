@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзыв о поездке</title>
+    <style>
+        body {
+            font-family: 'GraphikLCWeb-Medium';
+        }
+        @font-face {
+            font-family: 'GraphikLCWeb-Medium';
+            src: url('graphiklcweb-medium.eot'); /* IE 9 Compatibility Mode */
+            src: url('graphiklcweb-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+                url('graphiklcweb-medium.woff2') format('woff2'), /* Super Modern Browsers */
+                url('graphiklcweb-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+                url('graphiklcweb-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+                url('graphiklcweb-medium.svg#graphiklcweb-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+        }
+            a {
+            color: black;
+            text-decoration: none;
+        }
+        a.active {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body background="fon3.png">
+  <table border="0" width="100%" height="120" style="table-layout: auto; background: #5A8967;">
+        <tr>
+            <td align="center" valign="middle">
+                <a href="page1metromap.html"
+       style="font-size: 20px; color: white; text-decoration: none; display: inline-block; transition: transform 0.2s;"
+       onmouseover="this.style.transform='scale(1.05)';"
+       onmouseout="this.style.transform='scale(1)';">  • Схема •  </a>
+            </td>
+            <td align="center" valign="middle">
+                <a  style="font-size: 20px; color: white; text-decoration: none; display: inline-block; transition: transform 0.2s;"
+       onmouseover="this.style.transform='scale(1.05)';"
+       onmouseout="this.style.transform='scale(1)';" href="https://walker.by/blog/kuda-shodit-turistu-v-minske/" target="_blank">  • Достопримечательности •  </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: white; text-decoration: none; display: inline-block; transition: transform 0.2s;"
+       onmouseover="this.style.transform='scale(1.05)';"
+       onmouseout="this.style.transform='scale(1)';" href="usefullinks.html">  • Полезные ссылки •  </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: white; text-decoration: none; display: inline-block; transition: transform 0.2s;"
+       onmouseover="this.style.transform='scale(1.05)';"
+       onmouseout="this.style.transform='scale(1)';" href="history.html#imena">  • Их именами названы улицы •  </a>
+            </td>
+            <td align="center" valign="middle">
+                <a class="active" style="font-size: 20px; color: white; text-decoration: none; display: inline-block; transition: transform 0.2s;"
+       onmouseover="this.style.transform='scale(1.05)';"
+       onmouseout="this.style.transform='scale(1)';" href="otzyv.html">  • Отзыв о поездке •  </a>
+            </td>
+            <td align="center" valign="middle">
+                <a style="font-size: 20px; color: white; text-decoration: none; display: inline-block; transition: transform 0.2s;"
+       onmouseover="this.style.transform='scale(1.05)';"
+       onmouseout="this.style.transform='scale(1)';" href="history.html"> <img src="istoria_picto.png" width="50"> </a>
+
+            </td>
+        </tr>
+    </table>
+
+    <!---закончилась шапка, теперь начинаем табличку--->
+
+    <h2 align="center" style="font-size: 20px; color: #5A8967">Формы. Отправляем данные на сервер</h2>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <!--<form action="https://httpbin.org/post" method='post' >-->
+        <p style="font-size: 20px; color: #5A8967">Заполните, пожалуйста, эту форму. Обратная связь очень полезна :)<input type="hidden" name="q" value="search"></p>
+        <p style="font-size: 20px; color: #5A8967">Фамилия: <input type="Text" style="font-size: 20px; color: #5A8967" name="familia" size=20 value="Иванов"></p>
+        <p style="font-size: 20px; color: #5A8967">Имя: <input style="font-size: 20px; color: #5A8967" type="Text" name="ima" size=20 value="Иван"></p>
+        <p style="font-size: 20px; color: #5A8967">Отчество: <input style="font-size: 20px; color: #5A8967" type="Text" name="otchestvo" size=20 value="Иванович"></p>
+        <p style="font-size: 20px; color: #5A8967">Ваша учебная группа: <input style="font-size: 20px; color: #5A8967" type="number" name="group" size=20 value="200"></p>
+        <p style="font-size: 20px; color: #5A8967">Номер телефона: <input style="font-size: 20px; color: #5A8967" type="Tel" name="phone" pattern="[0-9]{11}" value="89000000000"> </p>
+        <p style="font-size: 20px; color: #5A8967">Электронная почта: <input style="font-size: 20px; color: #5A8967" type="email" name="email" value="thebestcity@belpost.by"> </p>
+        <p style="font-size: 20px; color: #5A8967">Пароль: <input style="font-size: 20px; color: #5A8967" type="Password" name="password" size=9 value="123"></p>
+        <p style="font-size: 20px; color: #5A8967">Дата: <input style="font-size: 20px; color: #5A8967" type="date" name="user_date" value='2026-10-15'></p>
+
+        <h2 align="center" style="font-size: 20px; color: #5A8967"> Теперь всё, что касается Беларуси</h2>
+
+        <p style="line-height: 35px; font-size: 20px; color: #5A8967">Где Вы сейчас находитесь:<br>
+            <input type="Radio" name="place" value="Msq" checked>Минск<br>
+            <input type="Radio" name="place" value="Brs">Брестская область<br>
+            <input type="Radio" name="place" value="Vit">Витебская область<br>
+            <input type="Radio" name="place" value="Gom">Гомельская область<br>
+            <input type="Radio" name="place" value="Grd">Гродненская область<br>
+            <input type="Radio" name="place" value="Mno">Минская область<br>
+            <input type="Radio" name="place" value="Mog">Могилёвская область<br>
+            <input type="Radio" name="place" value="Rus">В России<br>
+            <input type="Radio" name="place" value="AnP">Где-то в другом месте :)<br>
+        </p>
+
+        <p style="line-height: 35px; font-size: 20px; color: #5A8967">Какие города Беларуси Вы посещали? Если не были в Беларуси, выберите вариант "не посещал Беларусь"<br>
+            <input type="Checkbox" name="city_msq" value="1" checked>Минск<br>
+            <input type="Checkbox" name="city_brs" value="1">Брест<br>
+            <input type="Checkbox" name="city_vit" value="1">Витебск<br>
+            <input type="Checkbox" name="city_gom" value="1">Гомель<br>
+            <input type="Checkbox" name="city_grd" value="1">Гродно<br>
+            <input type="Checkbox" name="city_mog" value="1">Могилёв<br>
+            <input type="Checkbox" name="city_zhd" value="1">Жодино<br>
+            <input type="Checkbox" name="city_ors" value="1">Орша<br>
+            <input type="Checkbox" name="city_lid" value="1">Лида<br>
+            <input type="Checkbox" name="city_mir" value="1">Мир<br>
+            <input type="Checkbox" name="city_nsv" value="1">Несвиж<br>
+            <input type="Checkbox" name="nocity" value="1">Не посещал Беларусь<br>
+        </p>
+
+        <p style="line-height: 35px; font-size: 20px; color: #5A8967"> Расскажите, какие достопримечательности Вы посетили?
+            <br>
+            <TEXTAREA style="line-height: 35px; font-size: 20px; color: #5A8967" cols=80 rows=4 name="textlandmarks">Несвижский замок, дом-музей Максима Богдановича...</TEXTAREA>
+        </p>
+
+        <p style="line-height: 35px; font-size: 20px; color: #5A8967">Читали ли вы кого-то из белорусских писателей?
+            <select style="line-height: 35px; font-size: 20px; color: #5A8967" name="literature">
+                <OPTION style="line-height: 35px; font-size: 20px; color: #5A8967" value="Читал">Читал</OPTION>
+                <OPTION style="line-height: 35px; font-size: 20px; color: #5A8967" value="Только слышал о каких-то писателях">Только слышал о каких-то писателях</OPTION>
+                <OPTION style="line-height: 35px; font-size: 20px; color: #5A8967" value="Никогда не сталкивался">Никогда не сталкивался</OPTION>
+            </select>
+        </p>
+
+        <p style="line-height: 35px; font-size: 20px; color: #5A8967"> Дополнительная информация:
+            <br>
+            <TEXTAREA style="line-height: 35px; font-size: 20px; color: #5A8967" cols=80 rows=4 name="textarea">Расскажите нам что-нибудь о вашей поездке. Это будет полезно для следующих посетителей, ведь мы добавим на сайт всю полезную информацию</TEXTAREA>
+        </p>
+
+
+        <input type="hidden" name="otzyv" value="1">
+
+        <p>
+            <input style="line-height: 35px; font-size: 20px; color: #5A8967" type="Reset" name="Reset" value="Очистить форму">
+            <input style="line-height: 35px; font-size: 20px; color: #5A8967" type="Submit" name="submit" value="Отправить">
+        </p>
+    </form>
+
+</body>
+</html>
