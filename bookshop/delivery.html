@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Орион</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="logo">✨Орион</div>
+    <a href="index.html" class="link">Главная</a>
+    <a href="catalog.html" class="link">Каталог</a>
+    <a href="delivery.html" class="active">Доставка</a>
+    <a href="contacts.html" class="link">Контакты</a>
+
+  </header>
+
+
+  <main class="container">
+    <h1 class="page-title">Рассчитайте стоимость доставки</h1>
+    
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank" class="simple-form">
+        <input type="hidden" name="q" value="isk">
+        <p>Введите номер телефона <br><input type="tel" name="phone" pattern="[0-9]{11}" value="89000000000"></p>
+        <p>Введите адрес электронной почты <br><input type="email" name="email" value="bookshop@orion.ru"></p>
+        <p>Укажите, сколько книг вы хотите заказать <br><input type="number" name="number" value="2"></p>
+        <p>
+            <select name="city" id="city-select">
+                <option value="msk">Москва</option>
+                <option value="bl-mo">Ближайшее Подмосковье</option>
+                <option value="dl-mo">Дальнее Подмосковье</option>
+            </select>
+        </p>
+        <p>Выберите тип доставки <br>
+            <input type="radio" name="del" value="0" id="del-normal" checked> Обычная доставка 
+            <input type="radio" name="del" value="1" id="del-express"> Экспресс-доставка
+        </p>
+        <p>Введите промокод <br><input id="promokod" type="text" name="promo" value="PRIZE"></p>
+        <p>
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+    </form>
+  </main>
+</body>
+</html>
