@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "1984",
+    "author": "Джордж Оруэлл",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/b4/6f/0199e97e-a531-7a22-bfdd-9336a20fb46f.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Гарри Поттер и философский камень",
+    "author": "Дж. К. Роулинг",
+    "price": 800,
+    "img": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/-16/658/262/009/181/434/600013415930b0.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Маленький принц",
+    "author": "Антуан де Сент-Экзюпери",
+    "price": 800,
+    "img": "https://avatars.mds.yandex.net/get-mpic/1865219/2a000001949c8d179aeaecddde37d7338d6d/orig"
+  },
+  {
+    "id": 4,
+    "title": "Три товарища",
+    "author": "Эрих Мария Ремарк",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/e4/14/018fa157-0f83-7b0c-a401-e23347f5e414.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Над пропастью во ржи",
+    "author": "Джером Д. Сэлинджер",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/3e/26/019393ea-cce7-7dda-98e4-b72a9ab83e26.jpg"
+  }
+]

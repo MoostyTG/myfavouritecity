@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Алгебра. Учебник. Часть 1",
+    "author": "Алексей Львович Городенцев",
+    "price": 1500,
+    "img": "https://avatars.mds.yandex.net/get-mpic/15707826/2a0000019b71c66cade3008e40eb906d72f4/orig"
+  },
+  {
+    "id": 2,
+    "title": "Действительный и функциональный анализ",
+    "author": "В.И.Богачёв, О.Г.Смолянов",
+    "price": 800,
+    "img": "https://ir.ozone.ru/multimedia/c600/1003244729.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Алгебраическая топология",
+    "author": "А.Хатчер",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/4a/52/0195b434-3db2-7f88-811a-650206aa4a52.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Дифференциальная геометрия и топология",
+    "author": "Сабир Меджидович Гусейн-Заде",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/0b/43/01a09672-1e2a-786c-bfbf-a6a593250b43.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Сборник задач по дифференциальным уравнениям",
+    "author": "А.Ф.Филиппов",
+    "price": 800,
+    "img": "https://basket-43.wbbasket.ru/vol11798/part1179875/1179875929/images/big/1.webp"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Кружка",
+    "price": 500,
+    "img": "./data/vasilki.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Чайник",
+    "price": 1500,
+    "img": "./data/vasilki.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Ложка",
+    "price": 100,
+    "img": "./data/vasilki.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Ведро",
+    "price": 500,
+    "img": "./data/vasilki.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Корыто",
+    "price": 1500,
+    "img": "./data/vasilki.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Стиральная машина",
+    "price": 100000,
+    "img": "./data/vasilki.jpg"
+  }
+]
