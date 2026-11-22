@@ -172,7 +172,7 @@ body {
 .teachers-grid {
   display: grid;
   /* Точно такое же правило, как у книг: сколько влезет по 250px, столько и будет */
-  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
@@ -191,8 +191,8 @@ body {
 
 /* Фото (делаем круглым, но фиксируем размер) */
 .teacher-card img {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 10%; /* Круглая аватарка */
   object-fit: cover;
   margin-bottom: 15px;
