@@ -2,3 +2,6 @@
 https://moostytg.github.io/myfavouritecity/bestcity/
 Пункты про паспорт и алгоритмическую задачу 
 https://moostytg.github.io/myfavouritecity/homework/
+
+Контрольная работа 2. Ждём, пока загрузится
+https://moostytg.github.io/myfavouritecity/bookshop/
