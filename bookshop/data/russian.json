@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Война и мир",
+    "author": "Лев Николаевич Толстой",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/46/7b/019fac2d-ca8c-798d-8638-6cc21244467b.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Преступление и наказание",
+    "author": "Фёдор Михайлович Достоевский",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/df/d1/019e6a46-1493-7a51-8835-8507e644dfd1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Тихий Дон",
+    "author": "Михаил Александрович Шолохов",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/f7/e2/01947326-54f8-715b-8c1d-cb68cae2f7e2.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Поднятая целина",
+    "author": "Михаил Александрович Шолохов",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/33/c6/018f5cf3-6c6a-7ab2-a717-815aa77c33c6.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Жизнь Клима Самгина",
+    "author": "Максим Горький",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/ea/c6/01950840-1fdb-79da-8b6c-d58c6900eac6.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Мастер и Маргарита",
+    "author": "Михаил Афанасьевич Булгаков",
+    "price": 800,
+    "img": "https://content.img-gorod.ru/pim/products/images/36/54/0199ea73-ab4d-7c25-a06b-f05494433654.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Колымские рассказы",
+    "author": "Варлам Тихонович Шаламов",
+    "price": 800,
+    "img": "https://fkniga.ru/media/product/04/040404/KA-00317263.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Архипелаг ГУЛаг",
+    "author": "Александр Исаевич Солженицын",
+    "price": 800,
+    "img": "https://avatars.mds.yandex.net/i?id=d516bdf31e934c0494323918bd5d91fd_l-5232437-images-thumbs&n=13"
+  }
+]
