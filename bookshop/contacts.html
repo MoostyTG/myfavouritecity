@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Контакты - Орион</title>
+  <title>Контакты</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ШАПКА -->
   <header class="header">
     <div class="logo">✨Орион</div>
     <a href="index.html" class="link">Главная</a>
@@ -17,26 +16,39 @@
     <a href="contacts.html" class="active">Контакты</a>
   </header>
 
-  <!-- ОСНОВНОЙ КОНТЕНТ -->
+  <div class="page-nav">
+    <a href="#program" class="linki" id="up">О программе</a>
+    <a href="#student" class="linki">О студенте</a>
+    <a href="#supervisor" class="linki">О руководителе</a>
+    <a href="#manager" class="linki">О менеджере</a>
+  </div>
 
-  <a class="linki" href="#1"><p>&nbsp;&nbsp;О моей программе</p></a>
-  <a class="linki" href="#2"><p>&nbsp;&nbsp;О студенте</p></a>
-  <a class="linki" href="#3"><p>&nbsp;&nbsp;Об академическом руководителе</p></a>
-  <a class="linki" href="#4"><p>&nbsp;&nbsp;О менеджере образовательной программы</p></a>
+  <main class="container">
+    <h1 class="page-title">Информация о программе</h1>
 
-  <main id = "5" class="container">
-    <h1 class="page-title">Реальные данные <br>Или, как делают на настоящих сайтах, раздел "О нас"</h1>
-    <h2 class="page-title"></h2>
+<!-- программа математика -->
+    <section id="program" class="program-card">
+      <h2 id="program-title"></h2>
+      <p id="program-desc"></p>
+      <a id="program-link" class="btn-link" target="_blank">Перейти на сайт программы</a>
+    </section>
 
-    <!-- Пустая сетка, JS сам её заполнит -->
-    <div class="teachers-grid" id="teachers-grid">
-      <!-- Пока пусто -->
-    </div>
+<!-- я -->
+    <h2 class="section-title" id="student">Студент</h2>
+    <div class="person-card" id="student-card"></div>
+
+<!-- побережный -->
+    <h2 class="section-title" id="supervisor">Академический руководитель</h2>
+    <div class="person-card" id="supervisor-card"></div>
+
+<!-- корпусова -->
+    <h2 class="section-title" id="manager">Менеджер образовательной программы</h2>
+    <div class="person-card" id="manager-card"></div>
+
+    <a href="#up" class="linki">Наверх</a>
+
   </main>
 
-  <a class="linki" href="#5"><p>&nbsp;&nbsp;Наверх</p></a>
-
-  <!-- Подключаем скрипт для контактов -->
   <script src="./js/contacts.js"></script>
 </body>
 </html>
