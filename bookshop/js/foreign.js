@@ -1,6 +1,4 @@
 const grid = document.getElementById('books-grid');
-
-// Загружаем именно русский JSON
 fetch('./data/foreign.json')
   .then(response => response.json())
   .then(books => {
