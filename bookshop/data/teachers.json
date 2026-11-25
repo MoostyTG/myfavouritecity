@@ -1,30 +1,26 @@
-[
-  {
-    "id": 1,
-    "name": "01.03.01 Математика",
-    "subject": "Программа «Математика» дает всестороннюю современную фундаментальную математическую подготовку. На старших курсах индивидуальный учебный план позволяет уделить большое внимание специализации, выбрав ее из всего спектра актуальных направлений математики, смежных дисциплин или приложений. Благодаря этому выпускники, нацеленные на академическую карьеру, поступают в лучшие аспирантуры и магистратуры мира в области математики, физики и экономики, а остальные неизменно находят спрос в IT, финансах и других наукоемких приложениях. Тем не менее для успешного освоения программы важен интерес к математике как таковой, не обусловленный важностью математической подготовки для приложений.",
-    "email": "https://www.hse.ru/ba/math/?ysclid=mwrjq9nqpv298002837",
-    "img": "https://media.istockphoto.com/id/171158827/ru/векторная/расчеты-formula-on-blackboard.jpg?s=612x612&w=0&k=20&c=_V5jLw2yjx4D3ud1LtQj9_l40vqQMWZAwUuEM1h8GRI="
+{
+  "program": {
+    "title": "01.03.01 Математика",
+    "description": "Программа «Математика» дает всестороннюю современную фундаментальную математическую подготовку. На старших курсах индивидуальный учебный план позволяет уделить большое внимание специализации, выбрав ее из всего спектра актуальных направлений математики, смежных дисциплин или приложений. Благодаря этому выпускники, нацеленные на академическую карьеру, поступают в лучшие аспирантуры и магистратуры мира в области математики, физики и экономики, а остальные неизменно находят спрос в IT, финансах и других наукоемких приложениях.",
+    "url": "https://www.hse.ru/ba/math/"
   },
-  {
-    "id": 2,
+  "student": {
     "name": "Иринин Максим Сергеевич",
-    "subject": "msirinin@edu.hse.ru",
-    "email": "https://github.com/MoostyTG/myfavouritecity",
-    "img": "https://sun9-65.vkuserphoto.ru/s/v1/ig2/Bp7pQB5h-Imn95L34E3MvX2MmkKX5SO4zoZ4-FIj20FbSGEqWqWBakI_V8dF1wQ18iXYyNkvuTjx9xIzzTvaDgz-.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=6IZO41Lq9xYw64t6e8Kqek6L5jaiWlFov_efDNAvnps&cs=1920x0"
+    "email": "msirinin@edu.hse.ru",
+    "img": "https://sun9-65.vkuserphoto.ru/s/v1/ig2/Bp7pQB5h-Imn95L34E3MvX2MmkKX5SO4zoZ4-FIj20FbSGEqWqWBakI_V8dF1wQ18iXYyNkvuTjx9xIzzTvaDgz-.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=6IZO41Lq9xYw64t6e8Kqek6L5jaiWlFov_efDNAvnps&cs=1920x0",
+    "control1": "https://moostytg.github.io/myfavouritecity/bestcity/",
+    "control2": "https://moostytg.github.io/myfavouritecity/bookshop/"
   },
-  {
-    "id": 3,
+  "supervisor": {
     "name": "Побережный Владимир Андреевич",
-    "subject": "vpoberezhny@hse.ru",
-    "email": "https://www.hse.ru/org/persons/14341232/?ysclid=mwrki9hpf9855302146",
-    "img": "https://www.hse.ru/org/persons/cimage/14341232"
+    "email": "vpoberezhny@hse.ru",
+    "img": "https://www.hse.ru/org/persons/cimage/14341232",
+    "url": "https://www.hse.ru/org/persons/14341232/"
   },
-  {
-    "id": 4,
+  "manager": {
     "name": "Корпусова Юлия Викторовна",
-    "subject": "ykorpusova@hse.ru",
-    "email": "https://www.hse.ru/org/persons/955456745/?ysclid=mwrkhdsq3v333101225",
-    "img": "https://www.hse.ru/pubs/share/thumb/955928112:c380x380+0+0:r190x190!"
+    "email": "ykorpusova@hse.ru",
+    "img": "https://www.hse.ru/pubs/share/thumb/955928112:c380x380+0+0:r190x190!",
+    "url": "https://www.hse.ru/org/persons/955456745/"
   }
-]
+}
